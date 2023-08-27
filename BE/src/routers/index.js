@@ -1,6 +1,5 @@
 import express from "express"
-import routerProducts from "./products";
-
+import routerProducts from "./projects";
 const router = express.Router()
-router.use("/products", routerProducts)
+router.use("/projects", routerProducts)
 export default router;
