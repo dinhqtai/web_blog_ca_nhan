@@ -1,5 +1,5 @@
 'use client'
-import { LoginOutlined } from "@ant-design/icons";
+
 import { Button, Dropdown, MenuProps, Space } from "antd";
 import Link from "next/link";
 const HeaderAdmin: React.FC = () => {
@@ -11,9 +11,8 @@ const HeaderAdmin: React.FC = () => {
         {
             key: '1',
             label: (
-                <Button className="flex gap-2" onClick={LogOut}>
-                    < LoginOutlined className="mt-1" />
-                    <div>Log out</div>
+                <Button className="pb-10" onClick={LogOut}>
+                    <div className="">Log out</div>
                 </Button >
             ),
         },
